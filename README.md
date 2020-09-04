@@ -25,9 +25,9 @@ CREATE TABLE IF NOT EXISTS `steps` (
 ### Files you Need to Modify
 | Edit | Path |
 | ------ | ------ |
-| 1) Database | [application/config/database.php][PlDb] |
-| 2) App Config | [application/config/config.php][PlGh] |
-| 3) Htaccess | [.htaccess][PlGd] |
+| 1) Database | application/config/database.php |
+| 2) App Config | application/config/config.php |
+| 3) Htaccess | .htaccess |
 
 1) Set up Database Credentials
 2) Set up Application's Base Url
