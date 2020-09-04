@@ -1,0 +1,58 @@
+html, body {
+	height: 100%;
+	font-family: 'Nunito', sans-serif;
+}
+
+body {
+	background-image: url('../img/login_bg.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.logo {
+	width: 100px;
+}
+
+#reportrange {
+	background: #fff;
+	cursor: pointer;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+.total_steps {
+    background-color: #e4fcf9;
+	border-radius: 20px;
+    width: 450px;
+}
+
+.total_steps img {
+	width:100px;
+	max-width: 100%;
+}
+
+.total_steps span {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+#demo-add a {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    background-color: #38ff31;
+    cursor: pointer;
+    padding: 20px;
+    border: 3px solid #397bff;
+    border-radius: 14px;
+    animation: demo 1.5s ease-in-out;
+	color:#000000;
+	text-decoration: none;
+}
+
+@keyframes demo {
+	from {transform: translateX(110%);}
+	to {transform: translateX(0%);}
+}
