@@ -6,7 +6,7 @@ Insert and track your daily steps
 Download or clone the project via git cli
 
 ```sh
-$ git clone project
+$ git clone git@github.com:zagzter/pedometer.git
 ```
 
 ### Configuration
